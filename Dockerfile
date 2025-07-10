@@ -21,9 +21,6 @@ USER mediaflow_proxy
 # Aggiorna pip
 RUN python -m pip install --upgrade pip
 
-# Installa poetry
-RUN pip install poetry
-
 # Install Poetry
 RUN pip install --user --no-cache-dir poetry
 
